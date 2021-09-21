@@ -1,1 +1,7 @@
-
+.log {
+  background-color: gray,
+  opacity: 40%,
+  position: relative,
+  width: 100px,
+  height: 200px,
+  }
