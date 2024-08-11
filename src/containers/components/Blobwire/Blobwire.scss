@@ -1,0 +1,74 @@
+.blobwire-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.blob {
+  background: none;
+  border-width: 3px;
+  opacity: 40%;
+  border-style: solid;
+  border-color: rgba(221, 221, 221, 0.1);
+  width: 200vw;
+  height: 200vw;
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  overflow: hidden;
+  animation: morph 20s linear infinite;
+  transform: translate(10px, -100px);
+  position: absolute;
+}
+
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 40% 70% 80% 30% / 40% 40% 60% 50%;
+  }
+  34% {
+    border-radius: 65% 40% 60% 50% / 30% 40% 70% 70%;
+  }
+  67% {
+    border-radius: 100% 70% 50% 100% / 100% 100% 60% 60%;
+  }
+}
+@keyframes scaleIn {
+  from {
+    transform: scale(0.25, 0.25);
+  }
+  to {
+    transform: scale(4.5, 4.5);
+  }
+}
+
+.dua {
+  transform: translate(400px) rotate(80deg);
+}
+
+.tiga {
+  transform: translate(-170vw, -40vh) rotate(80deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .blob {
+    height: 10vh;
+    width: 10vh;
+  }
+  .tiga {
+    transform: translate(-100vw, -30vh) rotate(80deg);
+    width: 200vw;
+    height: 200vw;
+  }
+  .dua {
+    transform: translate(100px, 10vh) rotate(80deg);
+    width: 200vw;
+    height: 200vw;
+  }
+  .satu {
+    width: 200vw;
+    height: 200vw;
+    transform: translate(0vw, 10vh) rotate(0deg);
+  }
+}

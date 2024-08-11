@@ -1,0 +1,47 @@
+.container-blobblurred {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.warna-1 {
+  width: 300px;
+  height: 500px;
+  border-radius: 50%;
+  opacity: 20%;
+  filter: blur(200px);
+  background-color: rgb(143, 116, 250);
+  transform: translate(-100px);
+  animation: upsidedown 15s ease-in-out infinite alternate;
+}
+.warna-2 {
+  width: 300px;
+  height: 500px;
+  border-radius: 50%;
+  opacity: 40%;
+  filter: blur(200px);
+  background-color: rgb(101, 40, 162);
+  transform: translate(50vw);
+  animation: upsidedown 25s ease-in-out infinite alternate;
+}
+.warna-3 {
+  width: 300px;
+  height: 500px;
+  border-radius: 50%;
+  opacity: 40%;
+  filter: blur(200px);
+  background-color: rgba(0, 1, 82, 0.5);
+  transform: translate(90vw, -160vh);
+  animation: upsidedown 5s ease-in-out infinite alternate;
+}
+
+@keyframes upsidedown {
+  0% {
+    opacity: 40%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
