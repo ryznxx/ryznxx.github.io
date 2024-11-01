@@ -1,0 +1,63 @@
+.project-container {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  padding: 3rem 5rem;
+  .judul-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #judul {
+      margin: 2rem;
+      font-weight: 800;
+      font-size: 3rem;
+    }
+  }
+  .project-wrapper {
+    display: grid;
+    grid-template-columns: 28vw 28vw 28vw;
+    justify-content: space-between;
+    margin: 1rem 0px;
+  }
+}
+
+.card-project-container {
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 1.5rem;
+
+  .card-project-gambar {
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+  .card-project-deskripsi {
+    .cp-judul-icon {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      margin: 8px 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    padding: 1rem;
+    overflow: hidden;
+    .project-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+  .card-project-container {
+    .card-project-gambar {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

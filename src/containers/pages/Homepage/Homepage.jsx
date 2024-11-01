@@ -4,10 +4,12 @@ import Blobwire from "../../components/Blobwire/Blobwire";
 import Dynamicisland from "../../components/Dynamicisland/Dynamicisland";
 import chromesavior from "../../../assets/chromesavior.png";
 import "./Homepage.scss";
+import Project from "./section/Project";
 
 const Homepage = () => {
   return (
     <main className="container">
+      <img className="logos" src={chromesavior} alt="source" />
       <Dynamicisland />
       <section className="main-content">
         <div className="left-ctn">
@@ -20,9 +22,8 @@ const Homepage = () => {
           <div className="middles">
             <div className="m-left">
               <p id="intro">
-                My name is Mohammad Ridho Alfahresi. I live in Banyuwangi,
-                Indonesia, and I am a student at SMA Negeri 1 Rogojampi For 2
-                month and then I'm graduated.
+                Hi everyone! My name is Mohammad Ridho Alfahresi. I live in
+                Banyuwangi, Indonesia
               </p>
               <p className="get">
                 My social media in below, get in touch with me!
@@ -33,11 +34,11 @@ const Homepage = () => {
             </div>
           </div>
           <div className="icon-g">
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-brands fa-x-twitter"></i>
+            <i className="fa-brands fa-facebook-f"></i>
+            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-github"></i>
+            <i className="fa-solid fa-envelope"></i>
           </div>
         </div>
         <div className="right-ctn">
@@ -47,8 +48,8 @@ const Homepage = () => {
               <h3>My Instagram</h3>
               <p>
                 I have 2 instagram account my entertaint account and personal
-                account, its @chromesavior for entertaint and @itskindahaunted
-                for personal
+                account, its @chromesavior for entertaint and @thirteenrxdho for
+                personal
               </p>
             </div>
           </div>
@@ -99,6 +100,7 @@ const Homepage = () => {
         <Blobwire />
         <Blobblurred />
       </section>
+      <Project />
     </main>
   );
 };

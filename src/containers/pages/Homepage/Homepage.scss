@@ -1,6 +1,11 @@
 .container {
   position: relative;
   background: #0e0e0e;
+  overflow: hidden;
+}
+
+.logos {
+  display: none;
 }
 
 .main-content {
@@ -140,7 +145,13 @@
     flex-direction: column;
     gap: 50px;
   }
-
+  .logos {
+    position: absolute;
+    z-index: 99;
+    top: 2rem;
+    right: 2rem;
+    height: 4rem;
+  }
   .left-ctn {
     margin: 0;
     .texted {
@@ -161,8 +172,9 @@
       }
       .m-right {
         position: fixed;
-        top: 5vh;
-        right: -15vw;
+        display: none;
+        top: 2vh;
+        right: -12vw;
         img {
           height: 4rem;
         }
