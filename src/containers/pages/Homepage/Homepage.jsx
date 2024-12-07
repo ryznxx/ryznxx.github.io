@@ -9,6 +9,9 @@ import Project from "./section/Project";
 const Homepage = () => {
   return (
     <main className="container">
+      {/* <div className="pfp">
+        <img src="" alt="" />
+      </div> */}
       <img className="logos" src={chromesavior} alt="source" />
       <Dynamicisland />
       <section className="main-content">
