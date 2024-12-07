@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.90d869ed.css",
-    "main.js": "/static/js/main.cc578e6f.js",
+    "main.css": "/static/css/main.ee5b30c0.css",
+    "main.js": "/static/js/main.8322e70c.js",
     "static/js/453.defb83b4.chunk.js": "/static/js/453.defb83b4.chunk.js",
     "static/media/chromesavior.png": "/static/media/chromesavior.348a8cae9559a753c7df.png",
+    "static/media/bgproductkribok.webp": "/static/media/bgproductkribok.9f69832550c64f04c2ea.webp",
+    "static/media/productkribok.webp": "/static/media/productkribok.cc85b7085408c5b7eb14.webp",
+    "static/media/logokribnok.webp": "/static/media/logokribnok.708a039fad22fda43b93.webp",
+    "static/media/iconprod.ico": "/static/media/iconprod.69531b14d20944ce63ee.ico",
     "index.html": "/index.html",
-    "main.90d869ed.css.map": "/static/css/main.90d869ed.css.map",
-    "main.cc578e6f.js.map": "/static/js/main.cc578e6f.js.map",
+    "main.ee5b30c0.css.map": "/static/css/main.ee5b30c0.css.map",
+    "main.8322e70c.js.map": "/static/js/main.8322e70c.js.map",
     "453.defb83b4.chunk.js.map": "/static/js/453.defb83b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90d869ed.css",
-    "static/js/main.cc578e6f.js"
+    "static/css/main.ee5b30c0.css",
+    "static/js/main.8322e70c.js"
   ]
 }
