@@ -1,14 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './containers/App';
-import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./containers/App";
+import reportWebVitals from "./reportWebVitals";
+import { HashRouter as Router } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const helmetConfig = {};
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <HelmetProvider context={helmetConfig}>
+        <App />
+      </HelmetProvider>
     </Router>
   </React.StrictMode>
 );
