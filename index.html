@@ -12,14 +12,14 @@
       rel="stylesheet"
     />
     <style>
-      /* Mencegah gambar diseret dan mematikan menu pop-up di mobile */
+      /* Image Protection */
       img {
         -webkit-user-drag: none;
         -khtml-user-drag: none;
         -moz-user-drag: none;
         -o-user-drag: none;
         user-select: none;
-        -webkit-touch-callout: none; /* Mematikan menu save image di iOS/Android */
+        -webkit-touch-callout: none;
       }
       body {
         font-family: "Newsreader", serif;
@@ -47,18 +47,13 @@
         border: none !important;
         font-size: 0 !important;
       }
-      .goog-te-menu-value span {
-        color: transparent !important;
-        font-size: 0 !important;
-      }
       #google_translate_element {
         display: none;
       }
 
-      /* Custom Translate Button - Responsive Position */
       .translate-btn {
         position: fixed;
-        bottom: 1.5rem; /* Pindah ke bawah di mobile agar jempol mudah menjangkau */
+        bottom: 1.5rem;
         right: 1.5rem;
         z-index: 50;
         padding: 0.6rem 1.2rem;
@@ -87,7 +82,6 @@
       .translate-btn:hover {
         background: #000;
         color: #fff;
-        border-color: #000;
       }
     </style>
   </head>
@@ -116,20 +110,37 @@
 
     <section class="max-w-2xl mx-auto px-6 md:px-8 py-12 md:py-20">
       <header class="mb-12">
+        <div class="flex items-center gap-2">
+          <span class="relative flex h-2 w-2">
+            <span
+              class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"
+            ></span>
+            <span
+              class="relative inline-flex rounded-full h-2 w-2 bg-green-500"
+            ></span>
+          </span>
+          <span
+            class="text-[10px] uppercase tracking-[0.2em] text-gray-500 font-bold"
+            >Available for hire</span
+          >
+        </div>
+        <br />
         <h1
           class="text-3xl md:text-[2.52rem] font-light tracking-tight mb-6 text-black uppercase leading-tight"
         >
           Mohammad Ridho Alfahresi
         </h1>
+
         <div class="flex flex-col md:flex-row gap-6 items-start">
           <img
             class="rounded-full w-20 h-20 md:w-24 md:h-24 object-cover grayscale"
             src="assets/IMG_5512.JPG"
-            img
-            alt="me"
+            alt="Mohammad Ridho Alfahresi"
           />
           <div class="flex-1">
-            <p class="text-lg md:text-xl leading-relaxed text-gray-800 italic">
+            <p
+              class="text-lg md:text-xl leading-relaxed text-gray-800 italic mb-4"
+            >
               Software Engineering Student at
               <a
                 class="underline decoration-gray-300 hover:decoration-black transition-all"
@@ -138,15 +149,24 @@
               >. Specializing in Backend Systems, Database Architecture, and
               Developer Tools.
             </p>
+            <a
+              href="assets/cv.pdf"
+              target="_blank"
+              class="text-xs font-bold border border-black px-4 py-2 hover:bg-black hover:text-white transition-all uppercase tracking-widest inline-block"
+            >
+              View Curriculum Vitae
+            </a>
           </div>
         </div>
       </header>
 
       <div class="mb-16">
-        <p class="text-lg md:text-xl leading-relaxed text-left md:text-justify">
+        <p
+          class="text-lg md:text-xl leading-relaxed text-left md:text-justify text-gray-800"
+        >
           I have a deep-seated passion for engineering efficient software
-          solutions. My focus lies in building tools that simplify the
-          development workflow, as evidenced by my work on
+          solutions. My focus lies in building tools that simplify development
+          workflows, exemplified by
           <a
             class="font-bold border-b border-black"
             href="https://github.com/ryznxx/scramble-db"
@@ -184,7 +204,9 @@
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-10 gap-x-12">
           <div>
-            <h3 class="text-sm font-bold uppercase mb-3">Core Languages</h3>
+            <h3 class="text-sm font-bold uppercase mb-3 text-black">
+              Core Languages
+            </h3>
             <ul class="space-y-1 text-lg text-gray-700">
               <li>JS/TS, Go, Rust, Zig, Nim</li>
               <li>PHP, Python, Lua, C/C++</li>
@@ -192,7 +214,9 @@
             </ul>
           </div>
           <div>
-            <h3 class="text-sm font-bold uppercase mb-3">Frameworks</h3>
+            <h3 class="text-sm font-bold uppercase mb-3 text-black">
+              Frameworks
+            </h3>
             <ul class="space-y-1 text-lg text-gray-700">
               <li>Elysia, Next.js, React</li>
               <li>Fastify, Express, Flask</li>
@@ -200,7 +224,9 @@
             </ul>
           </div>
           <div>
-            <h3 class="text-sm font-bold uppercase mb-3">Infrastructure</h3>
+            <h3 class="text-sm font-bold uppercase mb-3 text-black">
+              Infrastructure
+            </h3>
             <ul class="space-y-1 text-lg text-gray-700">
               <li>Bun & Node.js Runtimes</li>
               <li>Git & GitHub Workflow</li>
@@ -209,12 +235,50 @@
             </ul>
           </div>
           <div>
-            <h3 class="text-sm font-bold uppercase mb-3">Specialization</h3>
+            <h3 class="text-sm font-bold uppercase mb-3 text-black">
+              Specialization
+            </h3>
             <ul class="space-y-1 text-lg text-gray-700">
               <li>Database Engine Design</li>
               <li>System Architecture</li>
               <li>Open Source Development</li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-8 text-gray-500"
+        >
+          Research & Interests
+        </h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold text-black italic">
+              Compiler Theory & System Programming
+            </h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Deeply interested in how languages are built. Currently exploring
+              custom lexers and parsers to understand the bridge between
+              high-level code and machine instructions.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="text-[10px] border border-gray-200 px-2 py-1 rounded uppercase tracking-widest text-gray-500 font-bold"
+              >Distributed Systems</span
+            >
+            <span
+              class="text-[10px] border border-gray-200 px-2 py-1 rounded uppercase tracking-widest text-gray-500 font-bold"
+              >Database Internals</span
+            >
+            <span
+              class="text-[10px] border border-gray-200 px-2 py-1 rounded uppercase tracking-widest text-gray-500 font-bold"
+              >Concurrency Models</span
+            >
           </div>
         </div>
       </section>
@@ -270,20 +334,93 @@
               class="flex flex-col md:flex-row justify-between md:items-baseline mb-2 gap-1"
             >
               <h3 class="text-2xl font-semibold">Sikarjo</h3>
-              <span class="text-sm font-mono text-gray-400">Open Source</span>
+              <span class="text-sm font-mono text-gray-400">PKM Project</span>
             </div>
             <p class="text-lg text-gray-700 leading-relaxed mb-3">
               An AI-powered WhatsApp Chatbot ecosystem featuring a centralized
-              management dashboard. Developed as a key contributor for a D4
-              Undergraduate Project, where I personally engineered 70% of the
-              total system architecture and integration.
+              management dashboard. As the primary contributor (responsible for
+              70% of development), I engineered the system architecture and
+              integrated intelligent NLP workflows.
             </p>
             <a
               href="https://github.com/Proyek-PKM/sikarjo"
               class="text-sm font-bold underline hover:text-gray-500 uppercase tracking-wider"
+              >Repository</a
             >
-              Repository
-            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section class="mb-16 reveal">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-8 text-gray-500"
+        >
+          Bookshelf & Mental Models
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+          <div>
+            <p
+              class="text-[10px] uppercase tracking-widest text-gray-400 mb-2 font-bold"
+            >
+              Technical Deep Dive
+            </p>
+            <ul class="space-y-4">
+              <li>
+                <h4
+                  class="text-lg font-semibold italic text-black leading-tight"
+                >
+                  "Mastering Nim" — Andreas Rumpf
+                </h4>
+                <p class="text-sm text-gray-600 mt-1">
+                  Understanding metaprogramming and efficient memory management
+                  in systems programming.
+                </p>
+              </li>
+              <li>
+                <h4
+                  class="text-lg font-semibold italic text-black leading-tight"
+                >
+                  "Designing Data-Intensive Applications" — Martin Kleppmann
+                </h4>
+                <p class="text-sm text-gray-600 mt-1">
+                  The definitive guide for scalable and reliable backend
+                  architecture.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p
+              class="text-[10px] uppercase tracking-widest text-gray-400 mb-2 font-bold"
+            >
+              Analytical & Philosophical
+            </p>
+            <ul class="space-y-4">
+              <li>
+                <h4
+                  class="text-lg font-semibold italic text-black leading-tight"
+                >
+                  "Madilog" — Tan Malaka
+                </h4>
+                <p class="text-sm text-gray-600 mt-1">
+                  Applying Materialism, Dialectics, and Logic as a framework for
+                  problem-solving.
+                </p>
+              </li>
+              <li>
+                <h4
+                  class="text-lg font-semibold italic text-black leading-tight"
+                >
+                  "God and the State" — Mikhail Bakunin
+                </h4>
+                <p class="text-sm text-gray-600 mt-1">
+                  Critical analysis of authority and systems—directly applicable
+                  to decentralized system design.
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -332,7 +469,7 @@
           <div class="aspect-square overflow-hidden bg-gray-50">
             <img
               src="assets/IMG_5512.JPG"
-              alt="Personal"
+              alt="Personal Frame"
               class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
           </div>
@@ -357,16 +494,27 @@
         >
           Get In Touch
         </h2>
-        <p class="text-xl md:text-2xl mb-8 font-light leading-relaxed px-4">
+        <p
+          class="text-xl md:text-2xl mb-8 font-light leading-relaxed px-4 text-black"
+        >
           Open to internships, freelance projects, and collaborations.
         </p>
+
         <div class="flex flex-col gap-6 items-center">
-          <a
-            href="mailto:mohammadridhoal@gmail.com"
-            class="text-lg md:text-xl border-b border-black pb-1 hover:text-gray-500 transition-colors"
-          >
-            mohammadridhoal@gmail.com
-          </a>
+          <div class="group relative">
+            <button
+              onclick="copyEmail()"
+              class="text-lg md:text-xl border-b border-black pb-1 hover:text-gray-500 transition-colors cursor-pointer"
+            >
+              mohammadridhoal@gmail.com
+            </button>
+            <span
+              id="copy-status"
+              class="absolute -top-10 left-1/2 -translate-x-1/2 text-[10px] bg-black text-white px-3 py-1.5 rounded opacity-0 transition-opacity uppercase tracking-widest"
+              >Email Copied!</span
+            >
+          </div>
+
           <div
             class="flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm uppercase tracking-widest font-bold mt-4"
           >
@@ -386,6 +534,7 @@
             >
           </div>
         </div>
+
         <p
           class="mt-20 text-[10px] md:text-xs text-gray-400 uppercase tracking-widest px-4"
         >
@@ -395,6 +544,7 @@
     </section>
 
     <script type="text/javascript">
+      // Google Translate Init
       function googleTranslateElementInit() {
         new google.translate.TranslateElement(
           {
@@ -411,10 +561,22 @@
         const googleDiv = document.querySelector(".goog-te-gadget-simple");
         if (googleDiv) {
           googleDiv.click();
-        } else {
-          alert("Translation service is loading...");
         }
       }
+
+      // Copy Email Function
+      function copyEmail() {
+        navigator.clipboard.writeText("mohammadridhoal@gmail.com");
+        const status = document.getElementById("copy-status");
+        status.classList.remove("opacity-0");
+        setTimeout(() => status.classList.add("opacity-0"), 2000);
+      }
+
+      // Image Protection (Context Menu & Drag)
+      document.querySelectorAll("img").forEach((img) => {
+        img.addEventListener("contextmenu", (e) => e.preventDefault());
+        img.setAttribute("draggable", "false");
+      });
     </script>
     <script
       type="text/javascript"
