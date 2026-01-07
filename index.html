@@ -12,6 +12,15 @@
       rel="stylesheet"
     />
     <style>
+      /* Mencegah gambar diseret dan mematikan menu pop-up di mobile */
+      img {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-select: none;
+        -webkit-touch-callout: none; /* Mematikan menu save image di iOS/Android */
+      }
       body {
         font-family: "Newsreader", serif;
         background-color: #ffffff;
