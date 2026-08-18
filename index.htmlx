@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>
+      Mohammad Ridho Alfahresi (@thirteenalter) | Software Engineer & Backend
+      Specialist
+    </title>
+    <meta
+      name="title"
+      content="Mohammad Ridho Alfahresi (@thirteenalter) | Software Engineer & Backend Specialist"
+    />
+    <meta
+      name="description"
+      content="Software Engineering Student at Politeknik Negeri Banyuwangi specializing in Backend Systems, Database Architecture, and Developer Tools. Creator of Scramble-db and Fluxen Language. Available for hire."
+    />
+    <meta
+      name="keywords"
+      content="Mohammad Ridho Alfahresi, thirteenalter, software engineer, backend developer, database architecture, Scramble-db, Fluxen Language, Nim programming, Go developer, Rust developer, TypeScript, full-stack developer, Politeknik Negeri Banyuwangi, Banyuwangi developer, Indonesian software engineer"
+    />
+    <meta name="author" content="Mohammad Ridho Alfahresi" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourwebsite.com/" />
+    <meta
+      property="og:title"
+      content="Mohammad Ridho Alfahresi (@thirteenalter) | Software Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Software Engineering Student specializing in Backend Systems, Database Architecture, and Developer Tools. Creator of Scramble-db and Fluxen Language. Available for hire."
+    />
+    <meta
+      property="og:image"
+      content="https://yourwebsite.com/assets/image2.png"
+    />
+    <meta
+      property="og:image:alt"
+      content="Mohammad Ridho Alfahresi - Software Engineer"
+    />
+    <meta
+      property="og:site_name"
+      content="Mohammad Ridho Alfahresi Portfolio"
+    />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@7ryznxx" />
+    <meta name="twitter:creator" content="@7ryznxx" />
+    <meta name="twitter:url" content="https://yourwebsite.com/" />
+    <meta
+      name="twitter:title"
+      content="Mohammad Ridho Alfahresi (@thirteenalter) | Software Engineer"
+    />
+    <meta
+      name="twitter:description"
+      content="Software Engineering Student specializing in Backend Systems, Database Architecture, and Developer Tools. Creator of Scramble-db and Fluxen Language."
+    />
+    <meta
+      name="twitter:image"
+      content="https://thirteenalter.me/assets/image2.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Mohammad Ridho Alfahresi - Software Engineer"
+    />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="M. Ridho Alfahresi" />
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="ID-JI" />
+    <meta name="geo.placename" content="Banyuwangi, East Java, Indonesia" />
+    <meta name="geo.position" content="-8.2191;114.3691" />
+    <meta name="ICBM" content="-8.2191, 114.3691" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohammad Ridho Alfahresi",
+        "alternateName": ["thirteenalter", "ryznxx"],
+        "url": "https://yourwebsite.com",
+        "image": "https://yourwebsite.com/assets/image2.png",
+        "jobTitle": "Software Engineer",
+        "worksFor": {
+          "@type": "EducationalOrganization",
+          "name": "Politeknik Negeri Banyuwangi"
+        },
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "SMAN 1 Rogojampi"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Banyuwangi",
+          "addressRegion": "East Java",
+          "addressCountry": "Indonesia"
+        },
+        "email": "mohammadridhoal@gmail.com",
+        "sameAs": [
+          "https://github.com/thirteenalter",
+          "https://www.linkedin.com/in/ryznxx/",
+          "https://x.com/7ryznxx",
+          "https://instagram.com/thirteenalter"
+        ],
+        "knowsAbout": [
+          "Backend Development",
+          "Database Architecture",
+          "System Programming",
+          "JavaScript",
+          "TypeScript",
+          "Go",
+          "Rust",
+          "Zig",
+          "Nim",
+          "PHP",
+          "Python",
+          "Node.js",
+          "Bun",
+          "Docker",
+          "Linux"
+        ],
+        "description": "Software Engineering Student specializing in Backend Systems, Database Architecture, and Developer Tools. Creator of Scramble-db and Fluxen Language."
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Mohammad Ridho Alfahresi Portfolio",
+        "url": "https://thirteenalter.me",
+        "description": "Personal portfolio and professional website of Mohammad Ridho Alfahresi, Software Engineer specializing in Backend Systems and Database Architecture",
+        "author": {
+          "@type": "Person",
+          "name": "Mohammad Ridho Alfahresi"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "SoftwareSourceCode",
+            "position": 1,
+            "name": "Scramble-db",
+            "description": "An experimental, lightweight NoSQL database designed for small-scale applications",
+            "codeRepository": "https://github.com/ryznxx/scramble-db",
+            "programmingLanguage": "JavaScript"
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "position": 2,
+            "name": "Fluxen Language",
+            "description": "An experimental, interpreted programming language built from scratch using Nim",
+            "codeRepository": "https://github.com/ryznxx/fluxen-lang",
+            "programmingLanguage": "Nim"
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "position": 3,
+            "name": "PMB Annuqayah",
+            "description": "A student admission application built with Laravel",
+            "codeRepository": "https://github.com/ryznxx/pmb-annuqayah",
+            "programmingLanguage": "PHP"
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "position": 4,
+            "name": "Sikarjo",
+            "description": "An AI-powered WhatsApp Chatbot ecosystem featuring a centralized management dashboard",
+            "codeRepository": "https://github.com/Proyek-PKM/sikarjo",
+            "programmingLanguage": "JavaScript"
+          }
+        ]
+      }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Image Protection */
+      img {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+      }
+      body {
+        font-family: "Newsreader", serif;
+        background-color: #ffffff;
+        color: #1a1a1a;
+        top: 0px !important;
+      }
+      .section-divider {
+        border-top: 1px solid #e5e7eb;
+        margin: 2rem 0;
+      }
+      @media (min-width: 768px) {
+        .section-divider {
+          margin: 3rem 0;
+        }
+      }
+
+      /* Hide Google Branding */
+      .goog-te-banner-frame.skiptranslate,
+      .goog-te-gadget icon {
+        display: none !important;
+      }
+      .goog-te-gadget-simple {
+        background-color: transparent !important;
+        border: none !important;
+        font-size: 0 !important;
+      }
+      #google_translate_element {
+        display: none;
+      }
+
+      .translate-btn {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        z-index: 50;
+        padding: 0.6rem 1.2rem;
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(8px);
+        border: 1px solid #e5e7eb;
+        border-radius: 99px;
+        font-family: "Newsreader", serif;
+        font-size: 0.875rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      @media (min-width: 768px) {
+        .translate-btn {
+          top: 2rem;
+          bottom: auto;
+          right: 2rem;
+        }
+      }
+
+      .translate-btn:hover {
+        background: #000;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body class="selection:bg-gray-200">
+    <div id="google_translate_element"></div>
+    <button class="translate-btn" onclick="triggerGoogleTranslate()">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="12" cy="12" r="10" />
+        <line x1="2" y1="12" x2="22" y2="12" />
+        <path
+          d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+        />
+      </svg>
+      <span>Translate</span>
+    </button>
+
+    <section class="max-w-2xl mx-auto px-6 md:px-8 py-12 md:py-20">
+      <header class="mb-12">
+        <div class="flex items-center gap-2">
+          <span class="relative flex h-2 w-2">
+            <span
+              class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"
+            ></span>
+            <span
+              class="relative inline-flex rounded-full h-2 w-2 bg-green-500"
+            ></span>
+          </span>
+          <span
+            class="text-[10px] uppercase tracking-[0.2em] text-gray-500 font-bold"
+            >Available for hire</span
+          >
+        </div>
+        <br />
+        <h1
+          class="text-3xl md:text-[2.52rem] font-light tracking-tight mb-6 text-black uppercase leading-tight"
+        >
+          Mohammad Ridho Alfahresi
+        </h1>
+
+        <div class="flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden">
+            <img
+              class="w-full h-full object-cover grayscale"
+              src="assets/image2.png"
+              alt="Mohammad Ridho Alfahresi - Software Engineer"
+            />
+          </div>
+          <div class="flex-1">
+            <p
+              class="text-lg md:text-xl leading-relaxed text-gray-800 italic mb-4"
+            >
+              Software Engineering Student at
+              <a
+                class="underline decoration-gray-300 hover:decoration-black transition-all"
+                href="https://poliwangi.ac.id/"
+                >Politeknik Negeri Banyuwangi</a
+              >. Specializing in Backend Systems, Database Architecture, and
+              Developer Tools.
+            </p>
+            <a
+              href="assets/cv.pdf"
+              target="_blank"
+              class="text-xs font-bold border border-black px-4 py-2 hover:bg-black hover:text-white transition-all uppercase tracking-widest inline-block"
+            >
+              View Curriculum Vitae
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <div class="mb-16">
+        <p
+          class="text-lg md:text-xl leading-relaxed text-left md:text-justify text-gray-800"
+        >
+          I have a deep-seated passion for engineering efficient software
+          solutions. My focus in building tools that simplify development
+          workflows, exemplified by
+          <a
+            class="font-bold border-b border-black"
+            href="https://github.com/ryznxx/scramble-db"
+            >Scramble-db</a
+          >. I thrive on technical challenges and am constantly exploring the
+          boundaries of modern programming languages.
+        </p>
+      </div>
+
+      <div class="section-divider"></div>
+
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-8 text-gray-500"
+        >
+          Core Principles
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 italic text-gray-700 text-lg"
+        >
+          <p>"Simplicity is the soul of efficiency."</p>
+          <p>"Write code for humans, optimize for machines."</p>
+          <p>"Continuous learning is a requirement."</p>
+          <p>"Minimalism in design, maximalism in performance."</p>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-8 text-gray-500"
+        >
+          Technical Expertise
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-10 gap-x-12">
+          <div>
+            <h3 class="text-sm font-bold uppercase mb-3 text-black">
+              Languages 
+            </h3>
+            <ul class="space-y-1 text-lg text-gray-700">
+              <li>JS/TS, Go, Rust, Zig, NIM</li>
+              <li>PHP, Python, Lua, C/C++</li>
+              <li>SQL (MySQL/PostgreSQL)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold uppercase mb-3 text-black">
+              Frameworks
+            </h3>
+            <ul class="space-y-1 text-lg text-gray-700">
+              <li>Elysia, Next.js, React</li>
+              <li>Fastify, Express, Flask</li>
+              <li>Laravel, Tailwind CSS</li>
+              <li>Shadcn, Wails</li>
+              <li>React Native, Flutter</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold uppercase mb-3 text-black">
+              Infrastructure
+            </h3>
+            <ul class="space-y-1 text-lg text-gray-700">
+              <li>Bun & Node.js Runtimes</li>
+              <li>Git & GitHub Workflow</li>
+              <li>Docker & Containerization</li>
+              <li>Linux Server Management</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold uppercase mb-3 text-black">
+              Specialization
+            </h3>
+            <ul class="space-y-1 text-lg text-gray-700">
+              <li>Database Engine Design</li>
+              <li>System Architecture</li>
+              <li>Web Development</li>
+              <li>Open Source Development</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-8 text-gray-500"
+        >
+          Research & Interests
+        </h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="text-xl font-semibold text-black italic">
+              Compiler Theory & System Programming
+            </h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Deeply interested in how languages are built. Currently exploring
+              custom lexers and parsers to understand the bridge between
+              high-level code and machine instructions.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="text-[10px] border border-gray-200 px-2 py-1 rounded uppercase tracking-widest text-gray-500 font-bold"
+              >Distributed Systems</span
+            >
+            <span
+              class="text-[10px] border border-gray-200 px-2 py-1 rounded uppercase tracking-widest text-gray-500 font-bold"
+              >Database Internals</span
+            >
+            <span
+              class="text-[10px] border border-gray-200 px-2 py-1 rounded uppercase tracking-widest text-gray-500 font-bold"
+              >Concurrency Models</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-8 text-gray-500"
+        >
+          Selected Works
+        </h2>
+        <div class="space-y-12 text-black">
+          <div>
+            <div
+              class="flex flex-col md:flex-row justify-between md:items-baseline mb-2 gap-1"
+            >
+              <h3 class="text-2xl font-semibold">Scramble-db</h3>
+              <span class="text-sm font-mono text-gray-400"
+                >2023 - Present</span
+              >
+            </div>
+            <p class="text-lg text-gray-700 leading-relaxed mb-3">
+              An experimental, lightweight NoSQL database designed for
+              small-scale applications. Built with a focus on low memory
+              footprint for Node.js.
+            </p>
+            <a
+              href="https://github.com/ryznxx/scramble-db"
+              class="text-sm font-bold underline hover:text-gray-500 uppercase tracking-wider"
+              >Source Code</a
+            >
+          </div>
+
+          <div>
+            <div
+              class="flex flex-col md:flex-row justify-between md:items-baseline mb-2 gap-1"
+            >
+              <h3 class="text-2xl font-semibold">Fluxen Language</h3>
+              <span class="text-sm font-mono text-gray-400">2021 - 2024</span>
+            </div>
+            <p class="text-lg text-gray-700 leading-relaxed mb-3">
+              An experimental, interpreted programming language built from
+              scratch using <strong>Nim</strong>. Features a custom-built lexer,
+              parser, and abstract syntax tree (AST) designed to explore
+              efficient language design and high-performance execution.
+            </p>
+            <a
+              href="https://github.com/ryznxx/fluxen-lang"
+              class="text-sm font-bold underline hover:text-gray-500 uppercase tracking-wider"
+              >Source Code</a
+            >
+          </div>
+
+          <div>
+            <div
+              class="flex flex-col md:flex-row justify-between md:items-baseline mb-2 gap-1"
+            >
+              <h3 class="text-2xl font-semibold">PMB Annuqayah</h3>
+              <span class="text-sm font-mono text-gray-400">Work</span>
+            </div>
+            <p class="text-lg text-gray-700 leading-relaxed mb-3">
+              A student admission application built with Laravel. Secured with
+              Laravel Breeze for robust authentication.
+            </p>
+            <a
+              href="https://github.com/ryznxx/pmb-annuqayah"
+              class="text-sm font-bold underline hover:text-gray-500 uppercase tracking-wider"
+              >Repository</a
+            >
+          </div>
+
+          <div>
+            <div
+              class="flex flex-col md:flex-row justify-between md:items-baseline mb-2 gap-1"
+            >
+              <h3 class="text-2xl font-semibold">Sikarjo</h3>
+              <span class="text-sm font-mono text-gray-400">PKM Project</span>
+            </div>
+            <p class="text-lg text-gray-700 leading-relaxed mb-3">
+              An AI-powered WhatsApp Chatbot ecosystem featuring a centralized
+              management dashboard. As the primary contributor (responsible for
+              70% of development), I engineered the system architecture and
+              integrated intelligent NLP workflows.
+            </p>
+            <a
+              href="https://github.com/Proyek-PKM/sikarjo"
+              class="text-sm font-bold underline hover:text-gray-500 uppercase tracking-wider"
+              >Repository</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section class="mb-16 reveal">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-8 text-gray-500"
+        >
+          Bookshelf & Mental Models
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+          <div>
+            <p
+              class="text-[10px] uppercase tracking-widest text-gray-400 mb-2 font-bold"
+            >
+              Technical Deep Dive
+            </p>
+            <ul class="space-y-4">
+              <li>
+                <h4
+                  class="text-lg font-semibold italic text-black leading-tight"
+                >
+                  "Mastering Nim" — Andreas Rumpf
+                </h4>
+                <p class="text-sm text-gray-600 mt-1">
+                  Understanding metaprogramming and efficient memory management
+                  in systems programming.
+                </p>
+              </li>
+              <li>
+                <h4
+                  class="text-lg font-semibold italic text-black leading-tight"
+                >
+                  "Designing Data-Intensive Applications" — Martin Kleppmann
+                </h4>
+                <p class="text-sm text-gray-600 mt-1">
+                  The definitive guide for scalable and reliable backend
+                  architecture.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p
+              class="text-[10px] uppercase tracking-widest text-gray-400 mb-2 font-bold"
+            >
+              Analytical & Philosophical
+            </p>
+            <ul class="space-y-4">
+              <li>
+                <h4
+                  class="text-lg font-semibold italic text-black leading-tight"
+                >
+                  "Madilog" — Tan Malaka
+                </h4>
+                <p class="text-sm text-gray-600 mt-1">
+                  Applying Materialism, Dialectics, and Logic as a framework for
+                  problem-solving.
+                </p>
+              </li>
+              <li>
+                <h4
+                  class="text-lg font-semibold italic text-black leading-tight"
+                >
+                  "God and the State" — Mikhail Bakunin
+                </h4>
+                <p class="text-sm text-gray-600 mt-1">
+                  Critical analysis of authority and systems—directly applicable
+                  to decentralized system design.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-8 text-gray-500"
+        >
+          Education
+        </h2>
+        <div class="space-y-8">
+          <div
+            class="flex flex-col sm:flex-row justify-between sm:items-start gap-1"
+          >
+            <div>
+              <h3 class="text-xl font-semibold text-black">
+                Politeknik Negeri Banyuwangi
+              </h3>
+              <p class="text-gray-600">Software Engineering</p>
+            </div>
+            <span class="text-sm font-mono text-gray-400 italic">Present</span>
+          </div>
+          <div
+            class="flex flex-col sm:flex-row justify-between sm:items-start gap-1"
+          >
+            <div>
+              <h3 class="text-xl font-semibold text-black">SMAN 1 Rogojampi</h3>
+              <p class="text-gray-600">High School Diploma</p>
+            </div>
+            <span class="text-sm font-mono text-gray-400 italic"
+              >Graduated</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-8 text-gray-500"
+        >
+          Life in Frames
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+          <div class="aspect-square overflow-hidden bg-gray-50">
+            <img
+              src="assets/image2.png"
+              alt="Mohammad Ridho Alfahresi portrait"
+              class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+            />
+          </div>
+          <div class="aspect-square overflow-hidden bg-gray-50">
+            <img
+              src="assets/image.png"
+              alt="Mohammad Ridho Alfahresi coding workspace"
+              class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+            />
+          </div>
+          <div
+            class="aspect-square bg-gray-50 flex items-center justify-center border border-dashed border-gray-200 text-gray-400 text-xs text-center px-4 italic"
+          >
+            Capturing the process
+          </div>
+          <div
+            class="aspect-square bg-gray-50 flex items-center justify-center border border-dashed border-gray-200 text-gray-400 text-xs text-center px-4 italic"
+          >
+            Coffee and Code
+          </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <footer class="text-center">
+        <h2
+          class="text-xs uppercase tracking-widest font-bold mb-6 text-gray-500"
+        >
+          Get In Touch
+        </h2>
+        <p
+          class="text-xl md:text-2xl mb-8 font-light leading-relaxed px-4 text-black"
+        >
+          Open to internships, freelance projects, and collaborations.
+        </p>
+
+        <div class="flex flex-col gap-6 items-center">
+          <div class="group relative">
+            <button
+              onclick="copyEmail()"
+              class="text-lg md:text-xl border-b border-black pb-1 hover:text-gray-500 transition-colors cursor-pointer"
+              aria-label="Copy email address"
+            >
+              mohammadridhoal@gmail.com
+            </button>
+            <span
+              id="copy-status"
+              class="absolute -top-10 left-1/2 -translate-x-1/2 text-[10px] bg-black text-white px-3 py-1.5 rounded opacity-0 transition-opacity uppercase tracking-widest"
+              >Email Copied!</span
+            >
+          </div>
+
+          <div
+            class="flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm uppercase tracking-widest font-bold mt-4"
+          >
+            <a
+              href="https://github.com/thirteenalter"
+              class="hover:underline"
+              aria-label="Visit GitHub profile (@thirteenalter)"
+              rel="noopener noreferrer"
+              target="_blank"
+              >GitHub (@thirteenalter)</a
+            >
+            <a
+              href="https://www.linkedin.com/in/ryznxx/"
+              class="hover:underline"
+              aria-label="Visit LinkedIn profile"
+              rel="noopener noreferrer"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a
+              href="https://x.com/7ryznxx"
+              class="hover:underline"
+              aria-label="Visit Twitter/X profile (@7ryznxx)"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Twitter (@7ryznxx)</a
+            >
+            <a
+              href="https://instagram.com/thirteenalter"
+              class="hover:underline"
+              aria-label="Visit Instagram profile (@thirteenalter)"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Instagram (@thirteenalter)</a
+            >
+          </div>
+        </div>
+
+        <p
+          class="mt-20 text-[10px] md:text-xs text-gray-400 uppercase tracking-widest px-4"
+        >
+          &copy; 2026 Mohammad Ridho Alfahresi. Built with Precision.
+        </p>
+      </footer>
+    </section>
+
+    <script type="text/javascript">
+      // Google Translate Init
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            includedLanguages: "en,id",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false,
+          },
+          "google_translate_element",
+        );
+      }
+
+      function triggerGoogleTranslate() {
+        const googleDiv = document.querySelector(".goog-te-gadget-simple");
+        if (googleDiv) {
+          googleDiv.click();
+        }
+      }
+
+      // Copy Email Function
+      function copyEmail() {
+        navigator.clipboard.writeText("mohammadridhoal@gmail.com");
+        const status = document.getElementById("copy-status");
+        status.classList.remove("opacity-0");
+        setTimeout(() => status.classList.add("opacity-0"), 2000);
+      }
+
+      // Image Protection (Context Menu & Drag)
+      document.querySelectorAll("img").forEach((img) => {
+        img.addEventListener("contextmenu", (e) => e.preventDefault());
+        img.setAttribute("draggable", "false");
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+  </body>
+</html>
